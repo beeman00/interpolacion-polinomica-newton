@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/estilos.css">
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/funciones.js"></script>
+	</head>
+	<body class="page">
+		<div class="jumbotron">
+		    <h1>Interpolaci&oacute;n Polin&oacute;mica de Newton</h1>
+		    <p>Diferencias Divididas</p> 
+	  	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<label for="tf-dimensions">X:</label>
+					<input class="form-control" type="text" id="tf-dimensions">
+				</div>
+				<div class="col-sm-1"><button class="btn btn-default" id="btn-generate-matrix">Continuar</button></div>
+			</div>
+			<form action="">
+				<div class="row">
+					<div class="container" id="matrix-container">
+						<div class="row" id="main-row">
+							<div class="col-sm-4 text-center column-n"></div>
+							<div class="col-sm-4 text-center column-x">X</div>
+							<div class="col-sm-4 text-center column-y"><em>f</em>(x)</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="row">
+					<button type="submit" class="btn btn-primary" id="btn-calculate">Calcular</button>
+				</div>
+			</form>
+		</div>
+		<footer class="footer">
+	      <div class="container">
+	      	<p class="text-muted">Desarrollado por: <span><span class="badge">Ayala Juan</span>&nbsp;<span class="badge">Negrin Jhonny</span></p>
+	      </div>
+    </footer>
+	</body>
+</html>
